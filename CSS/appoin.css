@@ -1,0 +1,26 @@
+
+.morning{height:30%;}
+.morning h3{border:2px solid gray;padding:5px;text-align:center;background-color:#aaa;}
+
+.morning #dov,#dov1,#dov2 {margin:auto;width:90%;}
+label {float: left;  width: 15%;border-radius: 3px;  border: 1px solid #D1D3D4;}
+input.radio:empty {	margin-left: -9999px;}
+/* style label */
+input.radio:empty ~ label {	position: relative;	float: left;	line-height: 2.5em;	text-indent: 3.25em;margin-top: 2em;	cursor: pointer;}
+input.radio:empty ~ label:before {position: absolute;	display: block;	top: 0;	bottom: 0;left: 0;content: '';width: 2.5em;background: #D1D3D4;
+border-radius: 3px 0 0 3px;}
+input.radio:hover:not(:checked) ~ label:before {content:'\2714';	text-indent: .9em;	color: black;}
+input.radio:hover:not(:checked) ~ label {	color: red;}
+input.radio:checked ~ label:before {	content:'\2714';	text-indent: .9em;	color: #9CE2AE;	background-color: #4DCB6D;}
+input.radio:checked ~ label {color: red;background-color: #0f0;font-weight: bold;}
+input.radio{float: left}
+
+.colors{border:2px solid;height:25%;width:95%;}
+
+
+.colors table tr td:first-child{padding: 20px;}
+.colors table tr td:last-child{padding: 3px;width: 100%;}
+.colors table tr:first-child td:first-child{background-color:lightgreen;}
+.colors table tr:nth-child(2) td:nth-child(1){background-color:blue;}
+
+

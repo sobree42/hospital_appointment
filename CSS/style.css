@@ -1,0 +1,300 @@
+
+
+.mySlides {
+    display:none
+}
+.w3-left, .w3-right, .w3-badge {
+    cursor:pointer
+}
+.w3-badge {
+    height:13px;width:13px;padding:0
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+ }
+
+ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+    height: 100%;
+    color: rgb(0, 0, 0);
+    line-height: 1.8;
+}
+
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+    background-image: url('6.jpg');
+    min-height: 100%;
+}
+
+/* Second image (Portfolio) */
+.bgimg-2 {
+    background-image: url("/w3images/parallax2.jpg");
+    min-height: 400px;
+}
+
+/* Third image (Contact) */
+.bgimg-3 {
+    background-image: url("image/.jpg");
+    min-height: 200px;
+}
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+       
+    }
+}
+
+
+
+#login_form{
+    width:350px;
+    height:350px;
+    position:relative;
+    top:10px;
+    margin: auto;
+    padding: auto;
+   
+}
+#signup_form{
+    width:450px;
+    height:450px;
+    
+    top:10px;
+    margin: auto;
+    padding: auto;
+}
+
+.button {
+    background-color: lightblue; 
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+
+
+.button2:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+.flex {
+    display: flex;
+    justify-content: flex-start;
+}
+.flex input {
+    max-width: 300px;
+    flex: 1 1 300px;
+}
+.flex .currency {
+    font-size: 30px;
+    padding: 0 10px 0 20px;
+    color: #999;
+    border: 2px solid #ccc;
+    border-right: 0;
+    line-height: 2.5;
+    border-radius: 7px 0 0 7px;
+    background: white;
+}
+table.sample {
+	font:normal 76%/150% 'Lucida Grande', 'Lucida Sans Unicode', Verdana, Arial, Helvetica, sans-serif;
+	border-collapse:separate;
+	border-spacing:0;
+	margin:0 0 1em;
+	color:#000;
+	}
+table a {
+	color:#523A0B;
+	text-decoration:none;
+	border-bottom:1px dotted;
+	}
+table a:visited {
+	color:#444;
+	font-weight:normal;
+	}
+table a:visited:after {
+	content:'\00A0\221A';
+	}
+table a:hover {
+	border-bottom-style:solid;
+	}
+thead th,
+thead td,
+tfoot th,
+tfoot td {
+	border:1px solid #523A0B;
+	border-width:1px 0;
+	background:#EBE5D9;
+	}
+th {
+	font-weight:bold;
+	line-height:normal;
+	padding:0.25em 0.5em;
+	text-align:left;
+	}
+tbody th,
+td {
+	padding:0.25em 0.5em;
+	text-align:left;
+	vertical-align:top;
+	}
+tbody th {
+	font-weight:normal;
+	white-space:nowrap;
+	}
+tbody th a:link,
+tbody th a:visited {
+	font-weight:bold;
+	}
+tbody td,
+tbody th {
+	border:1px solid #fff;
+	border-width:1px 0;
+	}
+tbody tr.odd th,
+tbody tr.odd td {
+	border-color:#EBE5D9;
+	background:#F7F4EE;
+	}
+tbody tr:hover td,
+tbody tr:hover th {
+	background:#ffffee;
+	border-color:#523A0B;
+	}
+caption {
+	font-family:Georgia,Times,serif;
+	font-weight:normal;
+	font-size:1.4em;
+	text-align:left;
+	margin:0;
+	padding:0.5em 0.25em;
+	}
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      
+      * {
+          box-sizing: border-box;
+      }
+      
+      /* Style inputs */
+      input[type=text], select, textarea {
+          width: 100%;
+          padding: 12px;
+          border: 1px solid #ccc;
+          margin-top: 6px;
+          margin-bottom: 16px;
+          resize: vertical;
+      }
+      
+      input[type=submit] {
+          background-color: #4CAF50;
+          color: white;
+          padding: 12px 20px;
+          border: none;
+          cursor: pointer;
+      }
+      
+      input[type=submit]:hover {
+          background-color: #45a049;
+      }
+      
+      /* Style the container/contact section */
+      .container {
+          border-radius: 5px;
+          background-color: #f2f2f2;
+          padding: 10px;
+      }
+      
+      /* Create two columns that float next to eachother */
+      .column {
+          float: left;
+          width: 50%;
+          margin-top: 6px;
+          padding: 20px;
+      }
+      
+      /* Clear floats after the columns */
+      .row:after {
+          content: "";
+          display: table;
+          clear: both;
+      }
+      
+      /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+      @media screen and (max-width: 600px) {
+          .column, input[type=submit] {
+              width: 100%;
+              margin-top: 0;
+          }
+      }
+      body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+.input-container {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.icon {
+    padding: 10px;
+    background: dodgerblue;
+    color: white;
+    min-width: 50px;
+    text-align: center;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+}
+
+.input-field:focus {
+    border: 2px solid dodgerblue;
+}
+
+
+.btn {
+    background-color: dodgerblue;
+    color: white;
+    padding: 15px 15px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.btn:hover {
+    opacity: 1;
+}

@@ -1,0 +1,49 @@
+ <!DOCTYPE html>
+<html lang="en">
+  <head>
+  	  <title>HOSPITAL SYSTEM</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="bootstrap-3.3.7/css/bootstrap.min.css">
+		<script type="text/javascript" src="bootstrap-3.3.7/js/jquery-3.1.1.min.js"></script>
+		<script type="text/javascript" src="bootstrap-3.3.7/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+
+<body>
+
+
+
+
+	<div class="container">
+	  <img src=".../../img/adult1.jpg" alt="Image" height="130" width="1140">
+
+
+<br>
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+		<div class="navbar-header">
+	</div>
+
+		
+		<ul class="nav navbar-nav">
+			<li><a href=".../../index.php"><span class="
+glyphicon glyphicon-home"></span> HOME</a></li>
+		</ul>
+		<ul class="nav navbar-nav">
+			<li><a href="contus.php"><span class="fa fa-fw fa-envelope"></span> CONTACT US </a></li>
+		</ul>
+		
+		
+		<ul class="nav navbar-nav navbar-right">
+			
+			<li class="dropdown">
+
+                    <li><a href=".../../login.php" ><span class="glyphicon glyphicon-log-in"></span> Login Page</a></li> 
+			</li>
+		</ul> 
+    </div>
+</nav>
+
+	  </body>
+</html>
